@@ -2,7 +2,7 @@
 
 
 
-***Image_display_VGA:
+****Image_display_VGA:
 
 Display a pattern on the screen via the VGA connector of the zybo
 

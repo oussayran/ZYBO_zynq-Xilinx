@@ -1,0 +1,52 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 540 -defaultsOSRD
+preplace port VGA_VS -pg 1 -y 260 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 570 -defaultsOSRD
+preplace port VGA_HS -pg 1 -y 290 -defaultsOSRD
+preplace portBus VGA_B -pg 1 -y -300 -defaultsOSRD
+preplace portBus VGA_R -pg 1 -y -200 -defaultsOSRD
+preplace portBus VGA_G -pg 1 -y -100 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 5 -y 150 -defaultsOSRD
+preplace inst B -pg 1 -lvl 6 -y -300 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 4 -y 120 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -y -110 -defaultsOSRD
+preplace inst v_tpg_0 -pg 1 -lvl 4 -y 300 -defaultsOSRD
+preplace inst R -pg 1 -lvl 6 -y -200 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 4 -y 500 -defaultsOSRD
+preplace inst G -pg 1 -lvl 6 -y -100 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 6 -y 170 -defaultsOSRD
+preplace inst ila_1 -pg 1 -lvl 7 -y -10 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -y 280 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -y 480 -defaultsOSRD
+preplace inst ila_2 -pg 1 -lvl 5 -y 400 -defaultsOSRD -resize 146 138
+preplace inst processing_system7_0 -pg 1 -lvl 2 -y 640 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 2 6 NJ 550 800J 400 1170J 300 NJ 300 NJ 300 1910
+preplace netloc G_Dout 1 6 2 1700 -100 NJ
+preplace netloc v_axi4s_vid_out_0_vid_data 1 5 1 1470
+preplace netloc v_tpg_0_m_axis_video 1 4 1 1190
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 5 3 1480 260 NJ 260 1900J
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 450
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 2 470J 540 810
+preplace netloc R_Dout 1 6 2 1710 -200 NJ
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 2 3 480 600 NJ 600 1150
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 3 3 780 -10 NJ -10 1490
+preplace netloc xlconstant_0_dout 1 3 2 800 30 1180
+preplace netloc processing_system7_0_FIXED_IO 1 2 6 NJ 570 790J 390 1180J 310 NJ 310 NJ 310 1900
+preplace netloc clk_wiz_0_clk_out1 1 1 6 50 340 460 140 770 20 1150 0 1500 -40 NJ
+preplace netloc B_Dout 1 6 2 1720 -300 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 N
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 3 490 420 780 210 1160
+preplace netloc processing_system7_0_FCLK_CLK0 1 2 1 460
+preplace netloc v_tc_0_vtiming_out 1 4 1 N
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 5 3 1470 270 NJ 270 1910J
+levelinfo -pg 1 0 30 250 630 980 1330 1600 1810 1930 -top -360 -bot 920
+"
+}
+{
+   "da_ps7_cnt":"1"
+}

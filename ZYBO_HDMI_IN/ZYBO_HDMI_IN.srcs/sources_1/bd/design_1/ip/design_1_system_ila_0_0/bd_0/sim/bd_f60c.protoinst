@@ -1,0 +1,21 @@
+{
+	"version": "1.0",
+	"modules": {
+		"bd_f60c": {
+			"proto_instances": {
+				"/g_inst/slot_0_axis": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "aclk"},
+						"ARESETN": { "actual": "aresetn"},
+						"TDATA": { "actual": "slot_0_axis_tdata"},
+						"TLAST": { "actual": "slot_0_axis_tlast"},
+						"TREADY": { "actual": "slot_0_axis_tready"},
+						"TUSER": { "actual": "slot_0_axis_tuser"},
+						"TVALID": { "actual": "slot_0_axis_tvalid"}
+					}
+				}
+			}
+		}
+	}
+}

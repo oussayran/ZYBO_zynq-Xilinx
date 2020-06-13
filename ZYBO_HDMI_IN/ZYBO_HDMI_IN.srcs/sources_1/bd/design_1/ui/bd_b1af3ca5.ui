@@ -1,0 +1,30 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port hdmi_in_ddc1 -pg 1 -y 450 -defaultsOSRD
+preplace port RefClk -pg 1 -y 240 -defaultsOSRD
+preplace port aclken -pg 1 -y 180 -defaultsOSRD
+preplace port vid_io_in_reset -pg 1 -y 530 -defaultsOSRD
+preplace port hdmi_in -pg 1 -y 610 -defaultsOSRD
+preplace port M_AXIS -pg 1 -y 330 -defaultsOSRD
+preplace port aRst_n -pg 1 -y 500 -defaultsOSRD
+preplace inst axis_subset_converter_0 -pg 1 -lvl 4 -y 330 -defaultsOSRD
+preplace inst v_vid_in_axi4s_0 -pg 1 -lvl 3 -y 580 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 4 -y 150 -defaultsOSRD
+preplace inst dvi2rgb_1 -pg 1 -lvl 1 -y 490 -defaultsOSRD
+preplace netloc Conn1 1 3 2 1130 230 1430
+preplace netloc Conn2 1 1 4 280J 450 NJ 450 NJ 450 NJ
+preplace netloc v_vid_in_axi4s_0_video_out 1 1 3 290 250 N 250 1100
+preplace netloc Conn4 1 0 1 -160J
+preplace netloc RefClk_1 1 0 4 -180 240 270 240 830 240 1110
+preplace netloc dvi2rgb_1_PixelClk 1 1 2 N 500 790
+preplace netloc aclken_1 1 0 3 N 180 N 180 780
+preplace netloc vid_io_in_reset_1 1 0 3 -190J 400 N 400 800
+preplace netloc dvi2rgb_1_RGB 1 1 2 N 460 820
+preplace netloc Net 1 0 4 -170 350 280 350 810 350 1120
+levelinfo -pg 1 -210 160 680 970 1280 1450 -top -70 -bot 750
+"
+}
+0
